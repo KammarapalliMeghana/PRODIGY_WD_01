@@ -1,0 +1,18 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+header {
+    padding: 50px;
+    background: #3498db;
+    color: white;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    background: #2ecc71;
+    color: white;
+    cursor: pointer;
+}
