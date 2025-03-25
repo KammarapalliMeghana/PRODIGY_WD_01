@@ -3,15 +3,60 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Landing Page</title>
+    <title>Landing Page - Eco Visionaries</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
-    <header>
-        <h1>Welcome to My Landing Page</h1>
-        <button id="clickButton">Click Me</button>
+    <nav>
+        <div class="logo">Eco Visionaries</div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="menu-toggle">&#9776;</div> <!-- Hamburger Menu -->
+    </nav>
+
+    <header id="home">
+        <div class="content">
+            <h1>Welcome to Eco Visionaries</h1>
+            <p>Building a sustainable future, one step at a time.</p>
+            <button id="learnMore">Learn More</button>
+        </div>
     </header>
+
+    <section id="about">
+        <h2>About Us</h2>
+        <p>Eco Visionaries is dedicated to promoting environmental awareness and sustainable practices.</p>
+    </section>
+
+    <section id="services">
+        <h2>Our Services</h2>
+        <div class="service-box">
+            <h3>Workshops</h3>
+            <p>We conduct workshops on plastic waste management and sustainability.</p>
+        </div>
+        <div class="service-box">
+            <h3>Awareness Campaigns</h3>
+            <p>Spreading awareness about environmental conservation.</p>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form id="contactForm">
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Eco Visionaries. All rights reserved.</p>
+    </footer>
 
     <script src="script.js"></script>
 
